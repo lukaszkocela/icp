@@ -1,0 +1,33 @@
+.social-icons {
+  display: flex;
+  gap: 10px;
+  &--team {
+    margin-top: 16px;
+    padding: 0 32px;
+  }
+  &--footer {
+    margin-top: 20px;
+  }
+  &__item {
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 0px;
+    display: flex;
+    transition-property: background-color, color;
+    transition-duration: $transitionDurationDefault;
+    transition-timing-function: $transitionTimingDefault;
+    &:hover,
+    &:focus {
+      background-color: $primaryColor;
+      color: $tertiaryColorWhite;
+    }
+    &--team {
+      color: $secondaryColorSocial;
+      fill: currentColor;
+    }
+    &--footer {
+      background-color: rgba(255, 255, 255, 0.1);
+      fill: $tertiaryColorWhite;
+    }
+  }
+}

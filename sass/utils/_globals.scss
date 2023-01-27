@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: $primaryFont;
+  color: $secondaryColorDark;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+@media screen and (min-width:1200px) {
+  .section {
+  padding: 94px 0;
+}
+}
+
+.container {
+  max-width: 480px;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:769px) {
+  .container {
+    max-width: 768px;
+}
+}
+
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 1200px;
+}
+}
