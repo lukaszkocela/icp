@@ -29,6 +29,12 @@ body {
   background-color: #FFF5F6;
 }
 
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  background: #OOO;
+}
+
 
 .social-icons {
   display: flex;
