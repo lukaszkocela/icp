@@ -15,24 +15,14 @@ img {
 }
 
 body {
-  font-family: $buFont;
+  font-family: $font-titan;
   color: $primaryColor;
 }
 
-.section {
-  padding: 60px 0;
-}
-
-@media screen and (min-width:1200px) {
-  .section {
-  padding: 94px 0;
-}
-}
 
 .container {
   max-width: 480px;
   min-width: 320px;
-  width: 100%;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -45,6 +35,6 @@ body {
 
 @media screen and (min-width:1200px) {
   .container {
-    max-width: 1280px;
+    max-width: 1200px;
 }
 }
